@@ -1,33 +1,28 @@
-# Inicijalne upute za izradu zadaća
-Poštovane kolegice i kolege, 
-
-čestitamo vam jer ste uspješno kreirali **repozitorij** koji ćete koristiti za izradu vašeg projekta, tj. za pisanje vaših triju zadaća. To će uključivati izradu dokumentacije i programskog kôda.
-
-Molim vas izmijenite ovaj dokument kako biste u njemu naveli naziv i kratak opis projekta koji obrađujete u vašim zadaćama, kao i vaše osobne podatke. Za upute o sintaksi koju možete koristiti u ovom dokumentu i kod pisanja vaše projektne dokumentacije obavezno pogledajte upute o sintaksi koje su dostupne na Moodleu, a dodatno i [ovaj link](https://guides.github.com/features/mastering-markdown/).
-
-A sada, vrijeme je za prvi korak rada na vašem projektu. 🙂 Za upis/opis vašeg programskog proizvoda molimo vas koristite **predložak** koji je naveden u nastavku. Započnite tako da kliknete na *olovku* u desnom gornjem kutu ovoga dokumenta te izbrišite sve što je iznad _Naziva projekta_, kao i sve upute koje su navedene u zagradama u predlošku ispod.
-
-# Naziv projekta
-(U redak iznad navedite naziv projekta koji ste dobili za analizu!)
+# Korisnički zahtjevi za sustav upravljanja gradskim prijevozom putnika
 
 ## Podaci o studentu
-(Ispod promijenite samo drugi redak tablice!)
-
 Ime i prezime | E-mail adresa (FOI) | JMBAG | Github korisničko ime
 ------------  | ------------------- | ----- | ---------------------
-Ime i prezime | mojaadresa@foi.hr | 000000000 | githubuser
-
+Tin Podnar | tpodnar22@foi.hr | 0016159010 | tpodnar22
 
 ## Opis domene
-(Vlastitim riječima opišite domenu ili problem koji pokriva projekt vaše zadaće!)
+Projekt se bavi digitalizacijom poslovanja Gradskih autobusa Varaždin radi unapređenja kvalitete usluge prijevoza za putnike. Trenutno se poslovanje vodi ručno, što uzrokuje poteškoće u praćenju vozila, definiranju vozila u voznom parku, autobusnih stanica, linija i voznome redu. Osim toga, putnici često nailaze na probleme poput nedostatka informacija o autobusnim linijama i voznim redovima na stanicama, što otežava planiranje putovanja. Također, postoji potreba za bržim procesom ukrcavanja putnika i praćenjem broja putnika u autobusu radi poboljšanja točnosti i efikasnosti usluge.
 
 ## Specifikacija projekta
-(Vlastitim riječima opišite zahtjeve za izradu ovog programskog proizvoda!)
+#### Funkcionalni zahtjevi:
+* Prikaz dohvaćenih podataka: Omogućiti zaposlenicima da digitalno definiraju vozila u voznom parku, autobusne stanice, vozne linije i vozni red. Putnici trebaju moći vidjeti definirane vozne linije i vozni red na prikladan način.
+* Unos podataka: Zaposlenici trebaju imati sustav za unos informacija o vozilima, stanica, linijama i voznom redu.
+* Izrada izvještaja: Omogućiti strukturirani ispis informacija o voznom parku, stanicama, linijama i voznom redu.
+* Prikaz statističkih podataka: Pružiti statističke informacije o voznom parku, linijama ili broju putnika.
+* Proces ukrcavanja putnika: Omogućiti putnicima kupnju karata putem kioska na autobusnoj stanici i samostalno očitavanje karata na čitaču pri ulasku u autobus.
+* Pratnja broja putnika: Evidentirati broj putnika u autobusu te označiti kada putnik izađe iz autobusa.
 
+#### Nefunkcionalni zahtjevi:
+* Izgled softvera: Softver treba imati intuitivno i privlačno korisničko sučelje kako bi korisnici lako se navigirali i koristili sustav.
+* Performanse: Softver treba osigurati brzu obradu podataka i odgovor na upite kako bi osigurao točnost i efikasnost usluge prijevoza.
+  
 ## Zadatak
-(U root repozitorija učitajte zadatak koji ste dobili i potom ovdje stavite link na njegovo otvaranje!)
+[Poveznica na zadatak](https://github.com/foivz/pi2024-zadace-tpodnarFOI/blob/master/Zadatak%20-%20Gradski%20prijevoz.pdf)
 
 ## Resursi
-(Zadaće je obvezno predati u obliku Wiki stranica na ovom repozitoriju. Slike i druge artefakte koje ćete koristiti na wiki stranicama smjestite u mapu dokumentacije u repozitoriju!)
-
 Svi resursi nalaze se u mapi _Documentation_.
