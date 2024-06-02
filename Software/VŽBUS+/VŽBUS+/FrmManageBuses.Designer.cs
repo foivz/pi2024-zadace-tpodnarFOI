@@ -49,14 +49,14 @@
             // 
             this.txtRegistrationNumber.Location = new System.Drawing.Point(123, 172);
             this.txtRegistrationNumber.Name = "txtRegistrationNumber";
-            this.txtRegistrationNumber.Size = new System.Drawing.Size(100, 20);
+            this.txtRegistrationNumber.Size = new System.Drawing.Size(126, 20);
             this.txtRegistrationNumber.TabIndex = 2;
             // 
             // txtCapacity
             // 
             this.txtCapacity.Location = new System.Drawing.Point(123, 198);
             this.txtCapacity.Name = "txtCapacity";
-            this.txtCapacity.Size = new System.Drawing.Size(100, 20);
+            this.txtCapacity.Size = new System.Drawing.Size(126, 20);
             this.txtCapacity.TabIndex = 4;
             // 
             // btnAdd

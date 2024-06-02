@@ -16,6 +16,11 @@ namespace VŽBUS_
         {
             InitializeComponent();
         }
+        private void btnShowBusLines_Click(object sender, EventArgs e)
+        {
+            FrmBusLines frmBusLines = new FrmBusLines();
+            frmBusLines.ShowDialog();
+        }
 
         private void btnManageBuses_Click(object sender, EventArgs e)
         {

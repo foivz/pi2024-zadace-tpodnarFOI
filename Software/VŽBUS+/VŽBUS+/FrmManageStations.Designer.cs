@@ -47,21 +47,21 @@
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(123, 172);
+            this.txtName.Location = new System.Drawing.Point(69, 172);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(100, 20);
+            this.txtName.Size = new System.Drawing.Size(241, 20);
             this.txtName.TabIndex = 2;
             // 
             // txtLocation
             // 
-            this.txtLocation.Location = new System.Drawing.Point(123, 198);
+            this.txtLocation.Location = new System.Drawing.Point(69, 198);
             this.txtLocation.Name = "txtLocation";
-            this.txtLocation.Size = new System.Drawing.Size(100, 20);
+            this.txtLocation.Size = new System.Drawing.Size(241, 20);
             this.txtLocation.TabIndex = 4;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(12, 224);
+            this.btnAdd.Location = new System.Drawing.Point(73, 224);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 5;
@@ -71,7 +71,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(93, 224);
+            this.btnUpdate.Location = new System.Drawing.Point(154, 224);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(75, 23);
             this.btnUpdate.TabIndex = 6;
@@ -81,7 +81,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(174, 224);
+            this.btnDelete.Location = new System.Drawing.Point(235, 224);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 7;

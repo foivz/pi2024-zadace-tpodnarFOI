@@ -21,6 +21,7 @@
             this.dgvBusLines = new System.Windows.Forms.DataGridView();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBusLines)).BeginInit();
             this.SuspendLayout();
             // 
@@ -39,12 +40,12 @@
             // 
             this.txtSearch.Location = new System.Drawing.Point(12, 12);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(200, 20);
+            this.txtSearch.Size = new System.Drawing.Size(312, 20);
             this.txtSearch.TabIndex = 1;
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(218, 10);
+            this.btnSearch.Location = new System.Drawing.Point(330, 12);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(75, 23);
             this.btnSearch.TabIndex = 2;
@@ -52,9 +53,23 @@
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(409, 15);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(363, 16);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Upišite naziv polazišta ili odredišta za pretraživanje";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // FrmBusLines
             // 
+            this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.ClientSize = new System.Drawing.Size(784, 461);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.dgvBusLines);
@@ -70,5 +85,7 @@
             this.PerformLayout();
 
         }
+
+        private System.Windows.Forms.Label label1;
     }
 }

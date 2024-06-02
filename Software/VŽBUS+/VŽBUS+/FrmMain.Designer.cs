@@ -25,11 +25,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnShowBusLines = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnManageBuses
             // 
-            this.btnManageBuses.Location = new System.Drawing.Point(274, 43);
+            this.btnManageBuses.Location = new System.Drawing.Point(282, 12);
             this.btnManageBuses.Name = "btnManageBuses";
             this.btnManageBuses.Size = new System.Drawing.Size(150, 30);
             this.btnManageBuses.TabIndex = 5;
@@ -39,7 +40,7 @@
             // 
             // btnManagePassengers
             // 
-            this.btnManagePassengers.Location = new System.Drawing.Point(274, 93);
+            this.btnManagePassengers.Location = new System.Drawing.Point(282, 62);
             this.btnManagePassengers.Name = "btnManagePassengers";
             this.btnManagePassengers.Size = new System.Drawing.Size(150, 30);
             this.btnManagePassengers.TabIndex = 4;
@@ -49,7 +50,7 @@
             // 
             // btnManageLines
             // 
-            this.btnManageLines.Location = new System.Drawing.Point(274, 143);
+            this.btnManageLines.Location = new System.Drawing.Point(282, 112);
             this.btnManageLines.Name = "btnManageLines";
             this.btnManageLines.Size = new System.Drawing.Size(150, 30);
             this.btnManageLines.TabIndex = 3;
@@ -59,7 +60,7 @@
             // 
             // btnManageReservations
             // 
-            this.btnManageReservations.Location = new System.Drawing.Point(274, 193);
+            this.btnManageReservations.Location = new System.Drawing.Point(282, 162);
             this.btnManageReservations.Name = "btnManageReservations";
             this.btnManageReservations.Size = new System.Drawing.Size(150, 30);
             this.btnManageReservations.TabIndex = 2;
@@ -69,7 +70,7 @@
             // 
             // btnManageStations
             // 
-            this.btnManageStations.Location = new System.Drawing.Point(274, 243);
+            this.btnManageStations.Location = new System.Drawing.Point(282, 212);
             this.btnManageStations.Name = "btnManageStations";
             this.btnManageStations.Size = new System.Drawing.Size(150, 30);
             this.btnManageStations.TabIndex = 1;
@@ -79,7 +80,7 @@
             // 
             // btnManageTickets
             // 
-            this.btnManageTickets.Location = new System.Drawing.Point(274, 293);
+            this.btnManageTickets.Location = new System.Drawing.Point(282, 262);
             this.btnManageTickets.Name = "btnManageTickets";
             this.btnManageTickets.Size = new System.Drawing.Size(150, 30);
             this.btnManageTickets.TabIndex = 0;
@@ -129,12 +130,23 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "Vaš VŽBUS+";
             // 
+            // btnShowBusLines
+            // 
+            this.btnShowBusLines.Location = new System.Drawing.Point(282, 312);
+            this.btnShowBusLines.Name = "btnShowBusLines";
+            this.btnShowBusLines.Size = new System.Drawing.Size(150, 30);
+            this.btnShowBusLines.TabIndex = 10;
+            this.btnShowBusLines.Text = "Prikaz autobusnih linija";
+            this.btnShowBusLines.UseVisualStyleBackColor = true;
+            this.btnShowBusLines.Click += new System.EventHandler(this.btnShowBusLines_Click);
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gold;
             this.ClientSize = new System.Drawing.Size(467, 361);
+            this.Controls.Add(this.btnShowBusLines);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -165,5 +177,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnShowBusLines;
     }
 }

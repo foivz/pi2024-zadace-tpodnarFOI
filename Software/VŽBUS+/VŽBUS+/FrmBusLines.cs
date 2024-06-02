@@ -30,5 +30,10 @@ namespace VŽBUS_
             List<Linija> linije = LinijaRepository.SearchLinije(searchTerm);
             dgvBusLines.DataSource = linije;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
