@@ -109,6 +109,7 @@
             // 
             // FrmManageStations
             // 
+            this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(524, 261);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);

@@ -146,6 +146,7 @@
             // 
             // FrmManageLines
             // 
+            this.BackColor = System.Drawing.Color.PaleGreen;
             this.ClientSize = new System.Drawing.Size(784, 300);
             this.Controls.Add(this.lblArrivalTime);
             this.Controls.Add(this.lblDepartureTime);
