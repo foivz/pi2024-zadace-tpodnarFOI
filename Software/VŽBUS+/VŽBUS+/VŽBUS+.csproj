@@ -52,6 +52,15 @@
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\Bus.cs" />
+    <Compile Include="Models\BusLine.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\Feedback.cs" />
+    <Compile Include="Models\Passenger.cs" />
+    <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\Report.cs" />
+    <Compile Include="Models\Reservation.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmLogin.resx">
