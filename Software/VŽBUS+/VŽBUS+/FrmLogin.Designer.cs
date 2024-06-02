@@ -13,82 +13,69 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
-
         private void InitializeComponent()
         {
-            this.labelUsername = new System.Windows.Forms.Label();
-            this.textBoxUsername = new System.Windows.Forms.TextBox();
-            this.labelPassword = new System.Windows.Forms.Label();
-            this.textBoxPassword = new System.Windows.Forms.TextBox();
-            this.buttonLogin = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.lblUsername = new System.Windows.Forms.Label();
+            this.lblPassword = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // labelUsername
+            // btnLogin
             // 
-            this.labelUsername.AutoSize = true;
-            this.labelUsername.Location = new System.Drawing.Point(16, 18);
-            this.labelUsername.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelUsername.Name = "labelUsername";
-            this.labelUsername.Size = new System.Drawing.Size(100, 16);
-            this.labelUsername.TabIndex = 0;
-            this.labelUsername.Text = "Korisničko ime: ";
+            this.btnLogin.Location = new System.Drawing.Point(114, 129);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(75, 23);
+            this.btnLogin.TabIndex = 0;
+            this.btnLogin.Text = "Prijava";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // textBoxUsername
+            // txtUsername
             // 
-            this.textBoxUsername.CausesValidation = false;
-            this.textBoxUsername.Location = new System.Drawing.Point(136, 15);
-            this.textBoxUsername.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxUsername.Name = "textBoxUsername";
-            this.textBoxUsername.Size = new System.Drawing.Size(225, 22);
-            this.textBoxUsername.TabIndex = 1;
-            this.textBoxUsername.TextChanged += new System.EventHandler(this.textBoxUsername_TextChanged);
+            this.txtUsername.Location = new System.Drawing.Point(114, 50);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(100, 20);
+            this.txtUsername.TabIndex = 1;
+            this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
-            // labelPassword
+            // txtPassword
             // 
-            this.labelPassword.AutoSize = true;
-            this.labelPassword.Location = new System.Drawing.Point(16, 50);
-            this.labelPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(59, 16);
-            this.labelPassword.TabIndex = 2;
-            this.labelPassword.Text = "Lozinka: ";
+            this.txtPassword.Location = new System.Drawing.Point(114, 90);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(100, 20);
+            this.txtPassword.TabIndex = 2;
+            this.txtPassword.UseSystemPasswordChar = true;
             // 
-            // textBoxPassword
+            // lblUsername
             // 
-            this.textBoxPassword.CausesValidation = false;
-            this.textBoxPassword.Location = new System.Drawing.Point(136, 47);
-            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(225, 22);
-            this.textBoxPassword.TabIndex = 3;
-            this.textBoxPassword.UseSystemPasswordChar = true;
-            this.textBoxPassword.TextChanged += new System.EventHandler(this.textBoxPassword_TextChanged);
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.Location = new System.Drawing.Point(30, 50);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(78, 13);
+            this.lblUsername.TabIndex = 3;
+            this.lblUsername.Text = "Korisničko ime:";
             // 
-            // buttonLogin
+            // lblPassword
             // 
-            this.buttonLogin.CausesValidation = false;
-            this.buttonLogin.Location = new System.Drawing.Point(136, 79);
-            this.buttonLogin.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonLogin.Name = "buttonLogin";
-            this.buttonLogin.Size = new System.Drawing.Size(100, 28);
-            this.buttonLogin.TabIndex = 4;
-            this.buttonLogin.Text = "Prijava";
-            this.buttonLogin.UseVisualStyleBackColor = true;
+            this.lblPassword.AutoSize = true;
+            this.lblPassword.Location = new System.Drawing.Point(30, 90);
+            this.lblPassword.Name = "lblPassword";
+            this.lblPassword.Size = new System.Drawing.Size(47, 13);
+            this.lblPassword.TabIndex = 4;
+            this.lblPassword.Text = "Lozinka:";
             // 
             // FrmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.CausesValidation = false;
-            this.ClientSize = new System.Drawing.Size(379, 124);
-            this.Controls.Add(this.buttonLogin);
-            this.Controls.Add(this.textBoxPassword);
-            this.Controls.Add(this.labelPassword);
-            this.Controls.Add(this.textBoxUsername);
-            this.Controls.Add(this.labelUsername);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.lblPassword);
+            this.Controls.Add(this.lblUsername);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.txtUsername);
+            this.Controls.Add(this.btnLogin);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmLogin";
@@ -99,12 +86,10 @@
 
         }
 
-        #endregion
-
-        private System.Windows.Forms.Label labelUsername;
-        private System.Windows.Forms.TextBox textBoxUsername;
-        private System.Windows.Forms.Label labelPassword;
-        private System.Windows.Forms.TextBox textBoxPassword;
-        private System.Windows.Forms.Button buttonLogin;
+        private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Label lblUsername;
+        private System.Windows.Forms.Label lblPassword;
     }
 }

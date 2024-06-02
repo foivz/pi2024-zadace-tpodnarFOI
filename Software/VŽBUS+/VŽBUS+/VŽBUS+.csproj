@@ -56,20 +56,27 @@
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\Bus.cs" />
-    <Compile Include="Models\BusLine.cs" />
-    <Compile Include="Models\Employee.cs" />
-    <Compile Include="Models\Feedback.cs" />
-    <Compile Include="Models\Passenger.cs" />
-    <Compile Include="Models\Person.cs" />
-    <Compile Include="Models\Report.cs" />
-    <Compile Include="Models\Reservation.cs" />
-    <Compile Include="Models\User.cs" />
+    <Compile Include="FrmPassengers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPassengers.Designer.cs">
+      <DependentUpon>FrmPassengers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Autobus.cs" />
+    <Compile Include="Models\Linija.cs" />
+    <Compile Include="Models\Zaposlenik.cs" />
+    <Compile Include="Models\Stanica.cs" />
+    <Compile Include="Models\Karta.cs" />
+    <Compile Include="Models\Rezervacija.cs" />
+    <Compile Include="Models\Korisnik.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\PassengerRepository.cs" />
+    <Compile Include="Repositories\KorisnikRepository.cs" />
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPassengers.resx">
+      <DependentUpon>FrmPassengers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
