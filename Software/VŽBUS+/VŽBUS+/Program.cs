@@ -9,9 +9,6 @@ namespace VŽBUS_
 {
     internal static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {
@@ -19,7 +16,6 @@ namespace VŽBUS_
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FrmLogin());
-            Application.Run(new FrmPassengers());
         }
     }
 }

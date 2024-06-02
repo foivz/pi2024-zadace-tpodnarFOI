@@ -68,11 +68,29 @@
     <Compile Include="FrmManageBuses.Designer.cs">
       <DependentUpon>FrmManageBuses.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmManageLines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmManageLines.Designer.cs">
+      <DependentUpon>FrmManageLines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmManageReservations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmManageReservations.Designer.cs">
+      <DependentUpon>FrmManageReservations.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmManageStations.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmManageStations.Designer.cs">
       <DependentUpon>FrmManageStations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmManageTickets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmManageTickets.Designer.cs">
+      <DependentUpon>FrmManageTickets.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmPassengers.cs">
       <SubType>Form</SubType>
@@ -102,8 +120,17 @@
     <EmbeddedResource Include="FrmManageBuses.resx">
       <DependentUpon>FrmManageBuses.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmManageLines.resx">
+      <DependentUpon>FrmManageLines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmManageReservations.resx">
+      <DependentUpon>FrmManageReservations.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmManageStations.resx">
       <DependentUpon>FrmManageStations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmManageTickets.resx">
+      <DependentUpon>FrmManageTickets.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPassengers.resx">
       <DependentUpon>FrmPassengers.cs</DependentUpon>

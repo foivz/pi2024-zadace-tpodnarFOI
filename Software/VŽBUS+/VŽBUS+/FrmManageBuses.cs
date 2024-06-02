@@ -7,7 +7,7 @@ namespace VŽBUS_
 {
     public partial class FrmManageBuses : Form
     {
-        private string connectionString = "your_connection_string_here";
+        private string connectionString = "Data Source=31.147.206.65;Initial Catalog=PI2324_tpodnar22_DB;User Id=PI2324_tpodnar22_User;Password=%K^{YcZ(";
 
         public FrmManageBuses()
         {

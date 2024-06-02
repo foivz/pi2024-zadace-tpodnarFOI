@@ -26,9 +26,12 @@
             // 
             // dgvBusLines
             // 
+            this.dgvBusLines.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvBusLines.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvBusLines.Location = new System.Drawing.Point(12, 41);
             this.dgvBusLines.Name = "dgvBusLines";
+            this.dgvBusLines.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvBusLines.Size = new System.Drawing.Size(760, 407);
             this.dgvBusLines.TabIndex = 0;
             // 
@@ -55,12 +58,17 @@
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.dgvBusLines);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmBusLines";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Autobusne linije";
             this.Load += new System.EventHandler(this.FrmBusLines_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvBusLines)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
     }
 }

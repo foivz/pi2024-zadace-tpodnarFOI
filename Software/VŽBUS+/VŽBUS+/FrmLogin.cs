@@ -12,9 +12,27 @@ namespace VŽBUS_
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            // Nepotrebno je provjeravati korisničko ime i lozinku.
+            ShowAllForms();
+        }
+
+        private void ShowAllForms()
+        {
             FrmPassengers frmPassengers = new FrmPassengers();
             frmPassengers.Show();
+            FrmBusLines frmBusLines = new FrmBusLines();
+            frmBusLines.Show();
+            FrmManageBuses frmManageBuses = new FrmManageBuses();
+            frmManageBuses.Show();
+            FrmManageLines frmManageLines = new FrmManageLines();
+            frmManageLines.Show();
+            FrmManageReservations frmManageReservations = new FrmManageReservations();
+            frmManageReservations.Show();
+            FrmManageStations frmManageStations = new FrmManageStations();
+            frmManageStations.Show();
+            FrmManageTickets frmManageTickets = new FrmManageTickets();
+            frmManageTickets.Show();
+
+            
             this.Hide();
         }
 
